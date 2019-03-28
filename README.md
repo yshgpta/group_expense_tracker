@@ -27,9 +27,10 @@ This application comprises of 5 modules:</br>
 <b>'com.airbnb.android:lottie:2.2.0'</b></br>
 
 Following are some of the screenshots of the app...</br>
-<img src="./main1.png" width="300px" height="600px">
-<img src="./main2.png" width="300px" height="600px">
-<img src="./main3.png" width="300px" height="600px">
-<img src="./main4.png" width="300px" height="600px">
-<img src="./main5.png" width="300px" height="600px">
-<img src="./main6.png" width="300px" height="600px">
+</br>
+<img src="./main1.png" width="250px" height="550px">
+<img src="./main2.png" width="250px" height="550px">
+<img src="./main3.png" width="250px" height="550px">
+<img src="./main4.png" width="250px" height="550px">
+<img src="./main5.png" width="250px" height="550px">
+<img src="./main6.png" width="250px" height="550px">
