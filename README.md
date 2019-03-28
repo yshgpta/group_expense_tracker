@@ -28,9 +28,9 @@ This application comprises of 5 modules:</br>
 
 Following are some of the screenshots of the app...</br>
 </br>
-<img src="./main1.png" width="250px" height="550px">
-<img src="./main2.png" width="250px" height="550px">
-<img src="./main3.png" width="250px" height="550px">
-<img src="./main4.png" width="250px" height="550px">
-<img src="./main5.png" width="250px" height="550px">
-<img src="./main6.png" width="250px" height="550px">
+<img src="./main1.png" width="260px" height="auto">
+<img src="./main2.png" width="260px" height="auto">
+<img src="./main3.png" width="260px" height="auto">
+<img src="./main4.png" width="260px" height="auto">
+<img src="./main5.png" width="260px" height="auto">
+<img src="./main6.png" width="260px" height="auto">
