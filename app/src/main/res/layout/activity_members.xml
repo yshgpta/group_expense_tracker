@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".Members">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="73dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="#223C6D"
+        android:text="MEMBERS"
+        android:paddingTop="25dp"
+        android:textAlignment="center"
+        android:textColor="#E8E8E8"
+        android:textSize="25dp"></TextView>
+
+    <com.diegodobelo.expandingview.ExpandingList
+        android:id="@+id/exp_listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="81dp">
+
+    </com.diegodobelo.expandingview.ExpandingList>
+
+</RelativeLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBGPrimary"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/mainLogo"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        app:srcCompat="@mipmap/mainlogo"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="120dp" />
+
+
+    <br.com.simplepass.loading_button_lib.customViews.CircularProgressButton
+        android:layout_width="242dp"
+        android:layout_height="48dp"
+        android:id="@+id/loadingMe"
+        android:text="Get Started"
+        android:textAllCaps="false"
+        app:spinning_bar_width="4dp"
+        app:spinning_bar_padding="6dp"
+        android:background="@drawable/shape_default"
+        app:spinning_bar_color="#fff"
+        android:textColor="#fff"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="50dp" />
+
+    <TextView
+        android:id="@+id/appName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:fontFamily="sans-serif"
+        android:text="GROUP EXPENSE TRACKER"
+        android:textColor="#F6FF00"
+        android:textSize="22dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mainLogo" />
+
+</android.support.constraint.ConstraintLayout>

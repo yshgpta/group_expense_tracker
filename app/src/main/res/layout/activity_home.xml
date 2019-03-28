@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".Home"
+    android:id="@+id/mainHome">
+
+
+    <LinearLayout
+        android:id="@+id/mainmenu"
+        android:layout_width="280dp"
+        android:layout_height="match_parent"
+        android:background="@color/colorBGPrimary"
+        android:orientation="vertical"
+        android:translationX="-280dp">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/lottieAnimationView2"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="-5dp"
+            app:lottie_fileName="coins.json"
+            app:lottie_loop="true"/>
+
+
+        <TextView
+            android:id="@+id/appName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-25dp"
+            android:gravity="center"
+            android:text="GROUP EXPENSE TRACKER"
+            android:textColor="#F6FF00"
+            android:textSize="20sp"
+            android:textStyle="normal" />
+
+        <Button
+            android:id="@+id/members"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="44dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/bgbtnmenu"
+            android:gravity="left"
+            android:text="Members"
+            android:textAllCaps="false"
+            android:textColor="@color/button_text_color"
+            android:textSize="18sp"
+            android:textStyle="normal" />
+
+        <Button
+            android:id="@+id/addExpense"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="44dp"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/bgbtnmenu"
+            android:gravity="left"
+            android:text="Add Expense"
+            android:textAllCaps="false"
+            android:textColor="@color/button_text_color"
+            android:textSize="18sp"
+            android:textStyle="normal" />
+
+        <Button
+            android:id="@+id/modifyExpense"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="44dp"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/bgbtnmenu"
+            android:gravity="left"
+            android:text="Modify Expenses"
+            android:textAllCaps="false"
+            android:textColor="@color/button_text_color"
+            android:textSize="18sp"
+            android:textStyle="normal" />
+
+        <Button
+            android:id="@+id/expensePieGraph"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="44dp"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/bgbtnmenu"
+            android:gravity="left"
+            android:text="Expense Graph"
+            android:textAllCaps="false"
+            android:textColor="@color/button_text_color"
+            android:textSize="18sp"
+            android:textStyle="normal" />
+
+        <Button
+            android:id="@+id/calculate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="44dp"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/bgbtnmenu"
+            android:gravity="left"
+            android:text="Calculate"
+            android:textAllCaps="false"
+            android:textColor="@color/button_text_color"
+            android:textSize="18sp"
+            android:textStyle="normal" />
+
+        <Button
+            android:id="@+id/tripDetail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="44dp"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/bgbtnmenu"
+            android:gravity="left"
+            android:text="Trip Detail"
+            android:textAllCaps="false"
+            android:textColor="@color/button_text_color"
+            android:textSize="18sp"
+            android:textStyle="normal" />
+
+        <Button
+            android:id="@+id/closeApp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="44dp"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/bgbtnmenu"
+            android:gravity="left"
+            android:text="Close"
+            android:textAllCaps="false"
+            android:textColor="@color/button_text_color"
+            android:textSize="18sp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/devName1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="Designed and Developed with"
+            android:textColor="#A8A8A8"
+            android:textSize="15dp" />
+
+        <ImageView
+            android:id="@+id/devNameimg"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:background="@drawable/heart"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/devName2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="by Yash Gupta"
+            android:layout_gravity="center"
+            android:textColor="#A8A8A8"
+            android:textSize="15dp"/>
+
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/maincontent"
+        android:layout_width="400dp"
+        android:layout_height="match_parent"
+        android:translationX="-280dp"
+        android:background="#A8E0FB">
+
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/lottieAnimationView1"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:foregroundGravity="center"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            app:lottie_fileName="trip.json"
+            app:lottie_loop="true"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="238dp" />
+
+        <Button
+            android:id="@+id/btnmenu"
+            android:layout_width="45dp"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="27dp"
+            android:background="@drawable/ic_menu_black_24dp" />
+
+        <TextView
+            android:id="@+id/tripHead"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="168dp"
+            android:gravity="center"
+            android:text="Your Trip is on..."
+            android:textColor="#181C34"
+            android:textSize="35dp"
+            android:fontFamily="casual"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/tripDisplay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="236dp"
+            android:fontFamily="cursive"
+            android:gravity="center"
+            android:text="Indonesia"
+            android:textColor="#181C34"
+            android:textSize="40dp"
+            android:textStyle="normal" />
+
+
+    </RelativeLayout>
+
+</LinearLayout>

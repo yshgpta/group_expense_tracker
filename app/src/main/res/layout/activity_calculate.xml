@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Members"
+    android:background="#E8E8E8">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="73dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:paddingTop="25dp"
+        android:text="CALCULATED AMOUNT"
+        android:textAlignment="center"
+        android:background="#223C6D"
+        android:textColor="#E8E8E8"
+        android:textSize="25dp">
+    </TextView>
+
+    <TextView
+        android:id="@+id/div_amt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="92dp"
+        android:text="Calculated Amount"
+        android:textAlignment="center"
+        android:textColor="#242424"
+        android:textSize="25dp">
+
+    </TextView>
+
+    <com.diegodobelo.expandingview.ExpandingList
+        android:id="@+id/calculateList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="139dp">
+
+    </com.diegodobelo.expandingview.ExpandingList>
+
+
+</RelativeLayout>

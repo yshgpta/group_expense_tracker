@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.yash.group_expense_tracker">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/mainlogo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/mainlogo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".TripSelection" />
+        <activity android:name=".GroupCreation" />
+        <activity android:name=".AddMembers" />
+        <activity android:name=".Home" />
+        <activity android:name=".Members" />
+        <activity android:name=".Add_Expenses" />
+        <activity android:name=".ExpensePieGraph" />
+        <activity android:name=".ModifyExpenses" />
+        <activity android:name=".Calculate" />
+        <activity android:name=".TripDetail"></activity>
+    </application>
+
+</manifest>
