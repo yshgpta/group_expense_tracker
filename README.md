@@ -27,3 +27,4 @@ This application comprises of 5 modules:</br>
 <b>'com.airbnb.android:lottie:2.2.0'</b></br>
 
 Following are some of the screenshots of the app...
+<img src="./main1.png" width="300px" height="600px">
